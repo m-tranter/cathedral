@@ -85,7 +85,7 @@ class Cross(pygame.sprite.Sprite):
 rasp = Berry()
 score = Points()
 crosshairs = Cross()
-allsprites = pygame.sprite.RenderPlain((rasp, crosshairs))
+allsprites = pygame.sprite.Group((rasp, crosshairs))
 done = False
 
 while not done:
